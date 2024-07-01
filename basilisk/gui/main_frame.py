@@ -9,15 +9,15 @@ import wx
 if sys.platform == 'win32':
 	import win32con
 import basilisk.config as config
-from basilisk import globalvars
+from basilisk import global_vars
 from basilisk.consts import APP_NAME, APP_SOURCE_URL, HotkeyAction
-from basilisk.imagefile import ImageFile
+from basilisk.image_file import ImageFile
 from basilisk.logger import get_log_file_path
-from basilisk.screencapturethread import ScreenCaptureThread, CaptureMode
+from basilisk.screen_capture_thread import ScreenCaptureThread, CaptureMode
 from basilisk.updater import BaseUpdater
-from .conversationtab import ConversationTab
-from .taskbaricon import TaskBarIcon
-from .updatedialog import UpdateDialog, DownloadUpdateDialog
+from .conversation_tab import ConversationTab
+from .taskbar_icon import TaskBarIcon
+from .update_dialog import UpdateDialog, DownloadUpdateDialog
 
 log = logging.getLogger(__name__)
 
@@ -124,7 +124,6 @@ class MainFrame(wx.Frame):
 			_("Manage &accounts") + "... (Ctrl+Shift+A)",
 		)
 		self.Bind(wx.EVT_MENU, self.on_manage_accounts, manage_accounts_item)
-		update_item_label_suffix(manage_accounts_item)
 		preferences_item = conversation_menu.Append(wx.ID_PREFERENCES)
 		self.Bind(wx.EVT_MENU, self.on_preferences, preferences_item)
 		update_item_label_suffix(preferences_item, "... (Ctrl+Shift+P)")
@@ -329,7 +328,7 @@ class MainFrame(wx.Frame):
 
 	def on_quit(self, event):
 		log.info("Closing application")
-		globalvars.app_should_exit = True
+		global_vars.app_should_exit = True
 		for tmp_file in self.tmp_files:
 			log.debug(f"Removing temporary file: {tmp_file}")
 			os.remove(tmp_file)
@@ -422,7 +421,7 @@ class MainFrame(wx.Frame):
 			tab.on_config_change()
 
 	def on_manage_accounts(self, event):
-		from .accountdialog import AccountDialog
+		from .account_dialog import AccountDialog
 
 		account_dialog = AccountDialog(self, _("Manage accounts"))
 		if account_dialog.ShowModal() == wx.ID_OK:
@@ -431,7 +430,7 @@ class MainFrame(wx.Frame):
 
 	def on_preferences(self, event):
 		log.debug("Opening preferences dialog")
-		from .preferencesdialog import PreferencesDialog
+		from .preferences_dialog import PreferencesDialog
 
 		preferences_dialog = PreferencesDialog(self, title=_("Settings"))
 		if preferences_dialog.ShowModal() == wx.ID_OK:
@@ -442,7 +441,7 @@ class MainFrame(wx.Frame):
 		import zipfile
 
 		res_nvda_addon_path = os.path.join(
-			globalvars.resource_path, "connectors", "nvda"
+			global_vars.resource_path, "connectors", "nvda"
 		)
 		try:
 			if not os.path.isdir(res_nvda_addon_path):
@@ -483,7 +482,7 @@ class MainFrame(wx.Frame):
 		)
 
 	def on_about(self, event):
-		from .aboutdialog import display_about_dialog
+		from .about_dialog import display_about_dialog
 
 		display_about_dialog(self)
 

@@ -1,54 +1,55 @@
-# French translations for BasiliskLLM.
+# Turkish translations for basiliskllm.
 # Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the BasiliskLLM
+# This file is distributed under the same license as the basiliskllm
 # project.
-# Clément Boussiron <clement.boussiron@gmail.com>, 2024.
+# Umut Korkmaz <umutkork@gmail.com>, 2024.
 #
+
 msgid ""
 msgstr ""
 "Project-Id-Version: BasiliskLLM 0.1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-06-29 18:07+0200\n"
-"PO-Revision-Date: 2024-06-29 19:00+0200\n"
-"Last-Translator: Clément Boussiron <clement.boussiron@gmail.com>\n"
-"Language-Team: fr <LL@li.org>\n"
-"Language: fr\n"
+"PO-Revision-Date: 2024-06-29 19:36+0200\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.14.0\n"
 "X-Generator: Poedit 3.4.4\n"
 
 #: basilisk/account.py:158
 msgid "From environment variable"
-msgstr "Depuis variables d’environnement"
+msgstr "Ortam değişkeninden"
 
 #. Translators: Account source label
 #: basilisk/account.py:223
 msgid "Environment variable"
-msgstr "Variable d’environnement"
+msgstr "Ortam değişkeni"
 
 #. Translators: Account source label
 #: basilisk/account.py:225
 msgid "Configuration file"
-msgstr "Fichier de configuration"
+msgstr "Yapılandırma dosyası"
 
 #: basilisk/screen_capture_thread.py:58
 msgid "Full screen capture"
-msgstr "Capture d’écran complète"
+msgstr "Tam ekran yakalama"
 
 #: basilisk/screen_capture_thread.py:60
 msgid "Window capture"
-msgstr "Capture de fenêtre"
+msgstr "Pencere yakalama"
 
 #: basilisk/screen_capture_thread.py:62
 msgid "Partial screen capture"
-msgstr "Capture partielle de l’écran"
+msgstr "Kısmi ekran yakalama"
 
 #: basilisk/gui/about_dialog.py:24
 msgid "Where LLMs Unite"
-msgstr "Où les LLMs s’unissent"
+msgstr "LLM'lerin Birleştiği Nokta"
 
 #: basilisk/gui/about_dialog.py:26
 msgid "GPLV2"
@@ -56,15 +57,15 @@ msgstr "GPLV2"
 
 #: basilisk/gui/account_dialog.py:40 basilisk/gui/account_dialog.py:307
 msgid "&Name:"
-msgstr "&Nom :"
+msgstr "&Ad:"
 
 #: basilisk/gui/account_dialog.py:45
 msgid "API &Key:"
-msgstr "&Clé API :"
+msgstr "&API Anahtarı:"
 
 #: basilisk/gui/account_dialog.py:73 basilisk/gui/account_dialog.py:406
 msgid "Please enter a name"
-msgstr "Veuillez entrer un nom"
+msgstr "Lütfen bir ad girin"
 
 #. Translators: A label for the log level in the settings dialog
 #: basilisk/gui/account_dialog.py:74 basilisk/gui/account_dialog.py:79
@@ -79,281 +80,279 @@ msgstr "Veuillez entrer un nom"
 #: basilisk/gui/main_frame.py:412 basilisk/gui/main_frame.py:473
 #: basilisk/gui/main_frame.py:500 basilisk/gui/preferences_dialog.py:25
 msgid "Error"
-msgstr "Erreur"
+msgstr "Hata"
 
 #: basilisk/gui/account_dialog.py:78
 msgid "Please enter a key"
-msgstr "Veuillez entrer une clé"
+msgstr "Lütfen bir anahtar girin"
 
 #: basilisk/gui/account_dialog.py:115
 msgid "Organizations"
-msgstr "Organisations"
+msgstr "Kuruluşlar"
 
 #. Translators: A label in account dialog
 #: basilisk/gui/account_dialog.py:122 basilisk/gui/account_dialog.py:472
 #: basilisk/gui/conversation_tab.py:119 basilisk/gui/conversation_tab.py:132
 msgid "Name"
-msgstr "Nom"
+msgstr "Ad"
 
 #. Translators: A label in account dialog
 #: basilisk/gui/account_dialog.py:127
 msgid "Key"
-msgstr "Clé"
+msgstr "Anahtar"
 
 #. Translators: A label in account dialog
 #: basilisk/gui/account_dialog.py:132 basilisk/gui/account_dialog.py:487
 msgid "Source"
-msgstr "Source"
+msgstr "Kaynak"
 
 #: basilisk/gui/account_dialog.py:139
 msgid "&Add"
-msgstr "&Ajouter"
+msgstr "&Ekle"
 
 #: basilisk/gui/account_dialog.py:141 basilisk/gui/account_dialog.py:501
 msgid "&Edit"
-msgstr "Édit&er"
+msgstr "D&üzenle"
 
 #: basilisk/gui/account_dialog.py:144 basilisk/gui/account_dialog.py:505
 msgid "&Remove"
-msgstr "Supp&rimer"
+msgstr "Kaldı&r"
 
 #: basilisk/gui/account_dialog.py:174 basilisk/gui/account_dialog.py:221
 #: basilisk/gui/account_dialog.py:254 basilisk/gui/account_dialog.py:546
 #: basilisk/gui/account_dialog.py:594 basilisk/gui/account_dialog.py:632
 msgid "Unknown"
-msgstr "Iconnue"
+msgstr "Bilinmiyor"
 
 #: basilisk/gui/account_dialog.py:212
 msgid "Add organization"
-msgstr "Ajouter une organisation"
+msgstr "Kuruluş ekle"
 
 #: basilisk/gui/account_dialog.py:239
 msgid "Edit organization"
-msgstr "Éditer une organisation"
+msgstr "Kuruluşu düzenle"
 
 #. Translators: A confirmation message in account dialog for removing
 #. organization
 #: basilisk/gui/account_dialog.py:270
 msgid "Are you sure you want to remove the organization {}?"
-msgstr "Êtes-vous sûr de vouloir supprimer l’organisation {} ?"
+msgstr "{} kuruluşunu kaldırmak istediğinizden emin misiniz?"
 
 #: basilisk/gui/account_dialog.py:273 basilisk/gui/account_dialog.py:653
 msgid "Confirmation"
-msgstr "Confirmation"
+msgstr "Onay"
 
 #: basilisk/gui/account_dialog.py:312
 msgid "&Provider:"
-msgstr "&Fournisseur :"
+msgstr "&Sağlayıcı:"
 
 #: basilisk/gui/account_dialog.py:321
 msgid "API &key:"
-msgstr "&Clé API :"
+msgstr "&API anahtarı:"
 
 #: basilisk/gui/account_dialog.py:328
 msgid "&Organization to use:"
-msgstr "&Organisation à utilisé :"
+msgstr "K&ullanılacak Kuruluş:"
 
 #: basilisk/gui/account_dialog.py:365 basilisk/gui/conversation_tab.py:553
 msgid "Personal"
-msgstr "Personnelle"
+msgstr "Kişisel"
 
 #: basilisk/gui/account_dialog.py:412
 msgid "Please select a provider"
-msgstr "Veuillez sélectioner un fournisseur"
+msgstr "Lütfen bir sağlayıcı seçin"
 
 #: basilisk/gui/account_dialog.py:419
 msgid "Please enter an API key. It is required for this provider"
-msgstr "Veuillez entrer une clé API. Cela est requis par le fournisseur"
+msgstr "Lütfen bir API anahtarı girin. Bu sağlayıcı için gerekli"
 
 #: basilisk/gui/account_dialog.py:466
 msgid "Accounts"
-msgstr "Comptes"
+msgstr "Hesaplar"
 
 #. Translators: A label in account dialog
 #: basilisk/gui/account_dialog.py:477
 msgid "Provider"
-msgstr "Fournisseur"
+msgstr "Sağlayıcı"
 
 #. Translators: A label in account dialog
 #: basilisk/gui/account_dialog.py:482
 msgid "Active organization"
-msgstr "Organisation active"
+msgstr "Aktif kuruluş"
 
 #: basilisk/gui/account_dialog.py:492
 msgid "&Add..."
-msgstr "&Ajouter…"
+msgstr "&Ekle..."
 
 #: basilisk/gui/account_dialog.py:496
 msgid "&Manage organizations..."
-msgstr "&Gérer les organisations…"
+msgstr "&Kuruluşları yönet..."
 
 #: basilisk/gui/account_dialog.py:535
 msgid "No (personal)"
-msgstr "Non (personnelle)"
+msgstr "Hayır (kişisel)"
 
 #: basilisk/gui/account_dialog.py:568
 msgid "Manage organizations"
-msgstr "Gérer les organisations"
+msgstr "Kuruluşları yönet"
 
 #: basilisk/gui/account_dialog.py:584
 msgid "Add account"
-msgstr "Ajouter un compte"
+msgstr "Hesap ekle"
 
 #: basilisk/gui/account_dialog.py:615
 msgid "Cannot edit account from environment variable"
-msgstr ""
-"Édition impossible pour un compte provenant des variables d’environement"
+msgstr "Hesap ortam değişkeninden düzenlenemiyor"
 
 #: basilisk/gui/account_dialog.py:618
 msgid "Edit account"
-msgstr "Éditer un compte"
+msgstr "Hesabı düzenle"
 
 #. Translators: A confirmation message in account dialog
 #: basilisk/gui/account_dialog.py:650
 msgid "Are you sure you want to remove the account {}?"
-msgstr "Êtes-vous sûr de vouloir supprimer le compte {} ?"
+msgstr "{} hesabını kaldırmak istediğinizden emin misiniz?"
 
 #: basilisk/gui/account_dialog.py:656
 msgid "Cannot remove account from environment variable"
-msgstr ""
-"Suppression impossible pour un compte provenant des variables d’environement"
+msgstr "Hesap ortam değişkeninden kaldırılamıyor"
 
 #. Translators: This is a label for account in the main window
 #: basilisk/gui/conversation_tab.py:52
 msgid "&Account:"
-msgstr "&Compte :"
+msgstr "&Hesap:"
 
 #. Translators: This is a label for system prompt in the main window
 #: basilisk/gui/conversation_tab.py:66
 msgid "S&ystem prompt:"
-msgstr "Prompt s&ystème :"
+msgstr "&Sistem istemi:"
 
 #. Translators: This is a label for user prompt in the main window
 #: basilisk/gui/conversation_tab.py:79
 msgid "&Messages:"
-msgstr "&Messages :"
+msgstr "&Mesajlar:"
 
 #. Translators: This is a label for user prompt in the main window
 #: basilisk/gui/conversation_tab.py:95
 msgid "&Prompt:"
-msgstr "&Prompt :"
+msgstr "İs&tem:"
 
 #. Translators: This is a label for models in the main window
 #: basilisk/gui/conversation_tab.py:111
 msgid "&Images:"
-msgstr "&Images :"
+msgstr "G&örseller:"
 
 #: basilisk/gui/conversation_tab.py:120
 msgid "Size"
-msgstr "Taille"
+msgstr "Boyut"
 
 #: basilisk/gui/conversation_tab.py:121
 msgid "Dimensions"
-msgstr "Dimensions"
+msgstr "Boyutlar"
 
 #: basilisk/gui/conversation_tab.py:122
 msgid "Path"
-msgstr "Chemin"
+msgstr "Yol"
 
 #: basilisk/gui/conversation_tab.py:129
 msgid "M&odels:"
-msgstr "M&odèles :"
+msgstr "M&odeller:"
 
 #: basilisk/gui/conversation_tab.py:133
 msgid "Context window"
-msgstr "Fenêtre de contexte"
+msgstr "Bağlam penceresi"
 
 #: basilisk/gui/conversation_tab.py:134
 msgid "Max tokens"
-msgstr "Token maximum"
+msgstr "Maksimum jeton"
 
 #. Translators: This is a label for max tokens in the main window
 #: basilisk/gui/conversation_tab.py:145
 msgid "Max to&kens:"
-msgstr "To&kens maximum :"
+msgstr "Ma&ksimum jetonlar:"
 
 #. Translators: This is a label for temperature in the main window
 #: basilisk/gui/conversation_tab.py:156
 msgid "&Temperature:"
-msgstr "&Température :"
+msgstr "&Sıcaklık:"
 
 #. Translators: This is a label for top P in the main window
 #: basilisk/gui/conversation_tab.py:167
 msgid "Probabilit&y Mass (top P):"
-msgstr "Masse de pro&babilité (top P) :"
+msgstr "Olas&ılık Kütlesi (en üst P):"
 
 #. Translators: This is a label for stream mode in the main window
 #: basilisk/gui/conversation_tab.py:176
 msgid "&Stream mode"
-msgstr "Mode &stream"
+msgstr "&Akış modu"
 
 #. Translators: This is a label for submit button in the main window
 #: basilisk/gui/conversation_tab.py:186
 msgid "Su&bmit (Ctrl+Enter)"
-msgstr "So&umettre (Ctrl+Entrée)"
+msgstr "&Gönder (Ctrl+Enter)"
 
 #. Translators: This is a label for stop completion button in the main window
 #: basilisk/gui/conversation_tab.py:195
 msgid "Stop completio&n"
-msgstr "Stopper la générati&on"
+msgstr "Tamamlamayı d&urdur"
 
 #. Translators: This is a label for record button in the main window
 #: basilisk/gui/conversation_tab.py:204 basilisk/gui/conversation_tab.py:717
 msgid "Record"
-msgstr "Enregistrer"
+msgstr "Ses kaydet"
 
 #: basilisk/gui/conversation_tab.py:239
 msgid "Please add an account first. Do you want to add an account now?"
 msgstr ""
-"Veuillez d’abord ajouter un compte. Voulez-vous en ajouter un maintenant ?"
+"Lütfen önce bir hesap ekleyin. Şimdi bir hesap eklemek istiyor musunuz?"
 
 #: basilisk/gui/conversation_tab.py:242
 msgid "No account configured"
-msgstr "Aucun compte configuré"
+msgstr "Hiçbir hesap yapılandırılmadı"
 
 #: basilisk/gui/conversation_tab.py:276
 msgid "Remove selected image"
-msgstr "Supprimer l’image sélectionnée"
+msgstr "Seçilen görseli kaldır"
 
 #: basilisk/gui/conversation_tab.py:282
 msgid "Copy image URL"
-msgstr "Copier l’URL de l’image"
+msgstr "Görsel Bağlantısını kopyala"
 
 #: basilisk/gui/conversation_tab.py:287
 msgid "Add image files..."
-msgstr "Ajouter des fichiers images..."
+msgstr "Görsel dosyalar ekle..."
 
 #: basilisk/gui/conversation_tab.py:291
 msgid "Add image URL..."
-msgstr "Ajouter une image depuis une URL..."
+msgstr "Bağlantıdan görsel ekle..."
 
 #: basilisk/gui/conversation_tab.py:310
 msgid "Select one or more image files"
-msgstr "Sélectionner un ou plusieurs fichier image"
+msgstr "Bir veya daha fazla görüntü dosyası seçin"
 
 #: basilisk/gui/conversation_tab.py:312
 msgid "Image files"
-msgstr "Fichiers d’image"
+msgstr "Görsel dosyaları"
 
 #. Translators: This is a label for image URL in conversation tab
 #: basilisk/gui/conversation_tab.py:324
 msgid "Enter the URL of the image:"
-msgstr "Entrer l’URL d’une image :"
+msgstr "Görselin bağlantısını girin:"
 
 #: basilisk/gui/conversation_tab.py:325
 msgid "Add image URL"
-msgstr "Ajouter une image depuis une URL"
+msgstr "Bağlantıdan görsel ekle"
 
 #: basilisk/gui/conversation_tab.py:335
 msgid "Invalid URL, bad format."
-msgstr "URL invalide, mauvais format."
+msgstr "Geçersiz Bağlantı, hatalı biçim."
 
 #. Translators: This message is displayed when the image URL returns an HTTP
 #. error.
 #: basilisk/gui/conversation_tab.py:345
 #, python-format
 msgid "HTTP error %s."
-msgstr "erreur HTTP %s."
+msgstr "HTTP hatası %s."
 
 #. Translators: This message is displayed when the image URL seems to not point
 #. to an image.
@@ -363,296 +362,303 @@ msgid ""
 "The URL seems to not point to an image (content type: %s). Do you want to "
 "continue?"
 msgstr ""
-"L’URL ne semble pas pointer vers une image (type de méddias : %s). Voulez-"
-"vous continuer :?"
+"Bağlantıda bir görsel bulunmuyor (içerik türü: %s). Devam etmek istiyor "
+"musunuz?"
 
 #. Translators: A label for the log level in the settings dialog
 #: basilisk/gui/conversation_tab.py:358 basilisk/gui/preferences_dialog.py:23
 msgid "Warning"
-msgstr "Avertissement"
+msgstr "Uyarı"
 
 #: basilisk/gui/conversation_tab.py:377
 #, python-format
 msgid "Error getting image dimensions: %s"
-msgstr "Erreur lors de la récupération des dimentions de l’image: %s"
+msgstr "Görsel boyutları alınırken hata oluştu: %s"
 
 #: basilisk/gui/conversation_tab.py:499
 msgid "Insert previous prompt"
-msgstr "Insérer le prompt précédent"
+msgstr "Önceki istemi ekle"
 
 #: basilisk/gui/conversation_tab.py:504
 msgid "Submit"
-msgstr "Soumettre"
+msgstr "Gönder"
 
 #: basilisk/gui/conversation_tab.py:648 basilisk/gui/conversation_tab.py:706
+#| msgid ""
+#| "The selected model does not support images. Please select a vision model "
+#| "instead ({})."
 msgid "The selected provider does not support speech-to-text"
-msgstr ""
-"Le fournisseur sélectionné ne prend pas en charge la reconnaissance vocale"
+msgstr "Seçilen sağlayıcı konuşmayı metne dönüştürmeyi desteklemiyor"
 
 #. Translators: This is a label for audio file in the main window
 #: basilisk/gui/conversation_tab.py:656
 msgid "Select an audio file to transcribe"
-msgstr "Sélectionner un fichier audio à transcrire"
+msgstr "Metne dönüştürülecek bir ses dosyası seçin"
 
 #: basilisk/gui/conversation_tab.py:658
+#| msgid "Add image files..."
 msgid "Audio files"
-msgstr "Fichiers audio"
+msgstr "Ses dosyaları"
 
 #: basilisk/gui/conversation_tab.py:670
 msgid "Recording..."
-msgstr "Enregistrement..."
+msgstr "Ses kaydediliyor..."
 
 #: basilisk/gui/conversation_tab.py:674
 msgid "Recording stopped"
-msgstr "Enregistrement arrêté"
+msgstr "Kayıt durduruldu"
 
 #: basilisk/gui/conversation_tab.py:678
 msgid "Transcribing..."
-msgstr "Transcription..."
+msgstr "Metne dönüştürülüyor..."
 
 #: basilisk/gui/conversation_tab.py:682 basilisk/gui/conversation_tab.py:689
 #: basilisk/gui/main_frame.py:179
 msgid "Ready"
-msgstr "Prêt"
+msgstr "Hazır"
 
 #: basilisk/gui/conversation_tab.py:691
+#| msgid "An error occurred during completion: "
 msgid "An error occurred during transcription: "
-msgstr "Une erreur s’est produite lors de la transcription : "
+msgstr "Metne dönüştürme sırasında bir hata oluştu: "
 
 #: basilisk/gui/conversation_tab.py:711
+#| msgid "Stop completio&n"
 msgid "Stop recording"
-msgstr "Arrêter l’enregistrement"
+msgstr "Kaydı Durdur"
 
 #: basilisk/gui/conversation_tab.py:727
 msgid "Please select a model"
-msgstr "Veuillez sélectioner un modèle"
+msgstr "Lütfen bir model seçin"
 
 #: basilisk/gui/conversation_tab.py:735
 msgid ""
 "The selected model does not support images. Please select a vision model "
 "instead ({})."
 msgstr ""
-"Le modèle sélectionné ne supporte pas la description d’image. Veuillez "
-"sélectionner un modèle compatible avec la vision à la place ({})."
+"Seçilen model görselleri desteklemiyor. Lütfen bunun yerine bir görüntü "
+"modeli seçin ({})."
 
 #: basilisk/gui/conversation_tab.py:772
 msgid "A task is already running. Please wait for it to complete."
-msgstr ""
-"Une tâche est en cours d’exécution. Veuillez attendre la fin de cette "
-"dernière."
+msgstr "Bir görev zaten çalışıyor. Lütfen tamamlanmasını bekleyin."
 
 #: basilisk/gui/conversation_tab.py:796
 msgid "An error occurred during completion: "
-msgstr "Une erreur s’est produite durant la génération : "
+msgstr "Tamamlama sırasında bir hata oluştu: "
 
 #. Translators: A label for a menu item to create a new conversation
 #: basilisk/gui/main_frame.py:66
 msgid "New conversation"
-msgstr "Nouvelle conversation"
+msgstr "Yeni konuşma"
 
 #. Translators: A label for a menu item to open a conversation
 #: basilisk/gui/main_frame.py:72
 msgid "Open conversation"
-msgstr "Ouvrir une conversation"
+msgstr "Konuşmayı aç"
 
 #. Translators: A label for a menu item to save a conversation
 #: basilisk/gui/main_frame.py:78
 msgid "Save conversation"
-msgstr "Sauvegarder une conversation"
+msgstr "Konuşmayı kaydet"
 
 #. Translators: A label for a menu item to save a conversation as a new file
 #: basilisk/gui/main_frame.py:84
 msgid "Save conversation as"
-msgstr "Sauvegarder une conversation sous"
+msgstr "Konuşmayı farklı kaydet"
 
 #: basilisk/gui/main_frame.py:88
 msgid "Close conversation"
-msgstr "Fermer la conversation"
+msgstr "Konuşmayı kapat"
 
 #. Translators: A label for a menu item to add an image from a file
 #: basilisk/gui/main_frame.py:97
 msgid "Add image from f&ile"
-msgstr "Ajouter une image depuis un f&ichier"
+msgstr "Dosyadan g&örsel ekle"
 
 #. Translators: A label for a menu item to add an image from a URL
 #: basilisk/gui/main_frame.py:107
 msgid "Add image from &URL"
-msgstr "Ajouter une image depuis une &URL"
+msgstr "&Bağlantıdan görsel ekle"
 
 #: basilisk/gui/main_frame.py:113
 msgid "Transcribe audio from microphone"
-msgstr "Transcrire l’audio depuis un microphone"
+msgstr "Mikrofondan sesi metne dönüştür"
 
 #: basilisk/gui/main_frame.py:117
 msgid "Transcribe audio file"
-msgstr "Transcrire un fichier audio"
+msgstr "Ses dosyasını metne dönüştür"
 
 #. Translators: A label for a menu item to manage accounts
 #: basilisk/gui/main_frame.py:124
 msgid "Manage &accounts"
-msgstr "Gérer les &comptes"
+msgstr "&Hesapları yönet"
 
 #: basilisk/gui/main_frame.py:141
 msgid "Install NVDA addon"
-msgstr "Installer le module complémentaire NVDA"
+msgstr "NVDA eklentisini yükle"
 
 #: basilisk/gui/main_frame.py:149 basilisk/gui/main_frame.py:492
 msgid "Check updates"
-msgstr "Vérifier les mises à jour"
+msgstr "Güncellemeleri denetle"
 
 #: basilisk/gui/main_frame.py:151
 msgid "&GitHub repository"
-msgstr "Dépôt &GitHub"
+msgstr "&GitHub deposu"
 
 #: basilisk/gui/main_frame.py:153
 msgid "Roko's Basilisk"
-msgstr "Basilic de Roko"
+msgstr "Roko'nun Basilisk'i"
 
 #: basilisk/gui/main_frame.py:156
 msgid "View &log"
-msgstr "Voir le &journal"
+msgstr "Günlüğü görüntü&le"
 
 #: basilisk/gui/main_frame.py:160
 msgid "&Conversation"
-msgstr "&Conversation"
+msgstr "&Konuşma"
 
 #: basilisk/gui/main_frame.py:161
 msgid "Too&ls"
-msgstr "Outils"
+msgstr "&Araçlar"
 
 #: basilisk/gui/main_frame.py:162
 msgid "&Help"
-msgstr "&Aide"
+msgstr "&Yardım"
 
 #: basilisk/gui/main_frame.py:168
 msgid "Minimize to tray"
-msgstr "Réduire dans la zone de notification"
+msgstr "Sistem tepsisinde simge durumuna küçült"
 
 #: basilisk/gui/main_frame.py:398 basilisk/gui/main_frame.py:412
 msgid "No conversation selected"
-msgstr "Aucune conversation sélectionnée"
+msgstr "Konuşma seçilmedi"
 
 #: basilisk/gui/main_frame.py:427
 msgid "Manage accounts"
-msgstr "Gérer les comptes"
+msgstr "Hesapları yönet"
 
 #: basilisk/gui/main_frame.py:436
 msgid "Settings"
-msgstr "Réglages"
+msgstr "Ayarlar"
 
 #: basilisk/gui/main_frame.py:472
 msgid "Failed to create NVDA addon"
-msgstr "Échec de la création de l’extension NVDA"
+msgstr "NVDA eklentisi oluşturulamadı"
 
 #: basilisk/gui/main_frame.py:500
 msgid "Failed to open log file"
-msgstr "Échec de l’ouverture du fichier journal"
+msgstr "Günlük dosyası açılamadı"
 
 #: basilisk/gui/main_frame.py:516
 msgid "New version available"
-msgstr "Une nouvelle version est disponible"
+msgstr "Yeni sürüm mevcut"
 
 #: basilisk/gui/main_frame.py:528 basilisk/gui/update_dialog.py:238
 msgid "Downloading update"
-msgstr "Téléchargement de la mise à jour"
+msgstr "Güncelleme indiriliyor"
 
 #. Translators: A label for the log level in the settings dialog
 #. Translators: A label for the automatic update mode in the settings dialog
 #: basilisk/gui/preferences_dialog.py:17 basilisk/gui/preferences_dialog.py:42
 msgid "Off"
-msgstr "Désactivé"
+msgstr "Kapalı"
 
 #. Translators: A label for the log level in the settings dialog
 #: basilisk/gui/preferences_dialog.py:19
 msgid "Debug"
-msgstr "Débogage"
+msgstr "Hata ayıklama"
 
 #. Translators: A label for the log level in the settings dialog
 #: basilisk/gui/preferences_dialog.py:21
 msgid "Info"
-msgstr "Info"
+msgstr "Bilgi"
 
 #. Translators: A label for the log level in the settings dialog
 #: basilisk/gui/preferences_dialog.py:27
 msgid "Critical"
-msgstr "Critique"
+msgstr "Kritik"
 
 #. Translators: A label for the release channel in the settings dialog
 #: basilisk/gui/preferences_dialog.py:32
 msgid "Stable"
-msgstr "Stable"
+msgstr "Kararlı"
 
 #. Translators: A label for the release channel in the settings dialog
 #: basilisk/gui/preferences_dialog.py:34
 msgid "Beta"
-msgstr "Bêta"
+msgstr "Beta"
 
 #. Translators: A label for the release channel in the settings dialog
 #: basilisk/gui/preferences_dialog.py:36
 msgid "Development"
-msgstr "Développement"
+msgstr "Geliştirici"
 
 #. Translators: A label for the automatic update mode in the settings dialog
 #: basilisk/gui/preferences_dialog.py:44
 msgid "Notify new version"
-msgstr "Notification de nouvelle version"
+msgstr "Yeni sürüm olduğunda göster"
 
 #. Translators: A label for the automatic update mode in the settings dialog
 #: basilisk/gui/preferences_dialog.py:46
 msgid "Download new version"
-msgstr "Télécharger la nouvelle version"
+msgstr "Yeni sürümü indir"
 
 #. Translators: A label for the automatic update mode in the settings dialog
 #: basilisk/gui/preferences_dialog.py:48
 msgid "Install new version"
-msgstr "Installer la nouvelle version"
+msgstr "Yeni sürümü yükle"
 
 #. Translators: A label for the log level selection in the preferences dialog
 #: basilisk/gui/preferences_dialog.py:68
 msgid "Log level"
-msgstr "Niveau de journalisation"
+msgstr "Günlük düzeyi"
 
 # | msgid "Language (Require restart)"
 #. Translators: A label for the language selection in the preferences dialog
 #: basilisk/gui/preferences_dialog.py:88
 msgid "Language (Requires restart)"
-msgstr "Langue (nécessite un redémarrage)"
+msgstr "Dil (Yeniden başlatma gerektirir)"
 
 #: basilisk/gui/preferences_dialog.py:100
 msgid "Update"
-msgstr "Mettre à jour"
+msgstr "Güncelleme"
 
 #: basilisk/gui/preferences_dialog.py:104
 msgid "Release channel"
-msgstr "Canal de version"
+msgstr "Yayın kanalı"
 
 #: basilisk/gui/preferences_dialog.py:118
 msgid "Automatic update mode"
-msgstr "Mode de mise à jour automatique"
+msgstr "Otomatik güncelleme modu"
 
 #. Translators: A label for a checkbox in the preferences dialog
 #: basilisk/gui/preferences_dialog.py:137
 msgid "Advanced mode"
-msgstr "Mode avancé"
+msgstr "Gelişmiş mod"
 
 #: basilisk/gui/preferences_dialog.py:143
 msgid "Images"
-msgstr "Images"
+msgstr "Görseller"
 
 #. Translators: A label for a checkbox in the preferences dialog
 #: basilisk/gui/preferences_dialog.py:149
 msgid "Resize images before uploading"
-msgstr "Redimentioner l’image avant l’envoi"
+msgstr "Yüklemeden önce görselleri yeniden boyutlandır"
 
 #. Translators: A label in the preferences dialog
 #: basilisk/gui/preferences_dialog.py:158
 msgid "Maximum &height (0 to resize proportionally to the width):"
-msgstr "&Hauteur maximale (0 to redimentionner porportionnellement)"
+msgstr ""
+"&Maksimum yükseklik (genişliğe orantılı olarak yeniden boyutlandırmak için "
+"0):"
 
 #. Translators: A label in the preferences dialog
 #: basilisk/gui/preferences_dialog.py:171
 msgid "Maximum &width (0 to resize proportionally to the height):"
-msgstr "&Largeur maximale (0 to redimentionner porportionnellement)"
+msgstr ""
+"Maks&imum genişlik (yüksekliğe orantılı olarak yeniden boyutlandırmak için "
+"0):"
 
 #. Translators: A label in the preferences dialog
 #: basilisk/gui/preferences_dialog.py:184
@@ -660,159 +666,155 @@ msgid ""
 "&Quality for JPEG images (0 [worst] to 95 [best], values above 95 should be "
 "avoided):"
 msgstr ""
-"&Qualité des images JPEG (0 [mauvaise] à 95 [meilleure], une valeur au "
-"dessus de 95 doit-être éviter) :"
+"&JPEG görüntü kalitesi (0 [kötü] ila 95 [en iyi], 95'in üzerindeki "
+"değerlerden kaçınılmalıdır):"
 
 #: basilisk/gui/preferences_dialog.py:197
 msgid "Server"
-msgstr "Serveur"
+msgstr "Sunucu"
 
 # | msgid "Language (Require restart)"
 #. Translators: A label for a checkbox in the preferences dialog
 #: basilisk/gui/preferences_dialog.py:203
 msgid "Enable server mode (requires restart)"
-msgstr "Activer le mode serveur (nécessite un redémarrage)"
+msgstr "Sunucu modunu etkinleştir (yeniden başlatma gerektirir)"
 
 #. Translators: A label in the preferences dialog
 #: basilisk/gui/preferences_dialog.py:211
 msgid "Port:"
-msgstr "Port :"
+msgstr "Port:"
 
 #: basilisk/gui/preferences_dialog.py:223
 msgid "Save"
-msgstr "Sauvegarder"
+msgstr "Kaydet"
 
 #: basilisk/gui/preferences_dialog.py:227
 msgid "Cancel"
-msgstr "Annuler"
+msgstr "İptal"
 
 #. Translators: A label for the language in the settings dialog
 #: basilisk/gui/preferences_dialog.py:278
 msgid "System default (auto)"
-msgstr "Identique au système (Automatique)"
+msgstr "Sistem varsayılanı (otomatik)"
 
 #: basilisk/gui/taskbar_icon.py:27
 msgid "Show"
-msgstr "Montrer"
+msgstr "Göster"
 
 #: basilisk/gui/taskbar_icon.py:27
 msgid "Hide"
-msgstr "Cacher"
+msgstr "Gizle"
 
 #: basilisk/gui/taskbar_icon.py:30
 msgid "About"
-msgstr "À propos"
+msgstr "Hakkında"
 
 #: basilisk/gui/taskbar_icon.py:32
 msgid "Quit"
-msgstr "Quitter"
+msgstr "Çık"
 
 #: basilisk/gui/update_dialog.py:27
 msgid "Downloading update..."
-msgstr "Téléchargement de la mise à jour..."
+msgstr "Güncelleme indiriliyor..."
 
 #: basilisk/gui/update_dialog.py:36
 msgid "Update download finished"
-msgstr "Téléchargement de la mise à jour terminée"
+msgstr "Güncellemeyi indirme işlemi tamamlandı"
 
 #: basilisk/gui/update_dialog.py:41
 #, python-format
 msgid "Update basiliskLLM version: %s"
-msgstr "Mettre à jour basiliskLLM à la version : %s"
+msgstr "BasiliskLLM sürümünü güncelle: %s"
 
 #: basilisk/gui/update_dialog.py:45 basilisk/gui/update_dialog.py:148
 msgid "Update now"
-msgstr "Mettre à jour maintenant"
+msgstr "Şimdi güncelle"
 
 #: basilisk/gui/update_dialog.py:105
 #, python-format
 msgid "Error downloading update: %s"
-msgstr "Erreur durant le téléchargement de la mise à jour : %s"
+msgstr "Güncelleme indirilirken hata oluştu: %s"
 
 #: basilisk/gui/update_dialog.py:128
 msgid "Checking for updates..."
-msgstr "Vérifier les mises à jour..."
+msgstr "Güncellemeler denetleniyor..."
 
 #: basilisk/gui/update_dialog.py:135
 msgid "A new version of basiliskLLM is available. Do you want to update?"
-msgstr ""
-"Une nouvelle version de basiliskLLM est disponible. Voulez-vous mettre à "
-"jours maintenant :?"
+msgstr "basiliskLLM'nin yeni bir sürümü mevcut. Güncellemek istiyor musunuz?"
 
 #: basilisk/gui/update_dialog.py:141
 msgid "Current version: "
-msgstr "Version actuelle : "
+msgstr "Geçerli sürüm: "
 
 #: basilisk/gui/update_dialog.py:145
 msgid "New version: "
-msgstr "Nouvelle version : "
+msgstr "Yeni sürüm: "
 
 #: basilisk/gui/update_dialog.py:164 basilisk/gui/update_dialog.py:181
 #, python-format
 msgid "Current version: %s"
-msgstr "Version actuelle : %s"
+msgstr "Geçerli sürüm: %s"
 
 #: basilisk/gui/update_dialog.py:174
 msgid "Update are disabled for source application"
-msgstr ""
-"Les mise à jour sont désactivées lorsque l’application est exécutée depuis "
-"les sources"
+msgstr "Kaynak uygulama için güncelleme devre dışı bırakıldı"
 
 #: basilisk/gui/update_dialog.py:175
 msgid "Update disabled"
-msgstr "Mise à jour désactivée"
+msgstr "Güncelleme devre dışı bırakıldı"
 
 #: basilisk/gui/update_dialog.py:205
 #, python-format
 msgid "New version: %s"
-msgstr "Nouvelle version : %s"
+msgstr "Yeni sürüm: %s"
 
 #: basilisk/gui/update_dialog.py:217
 msgid "You are using the latest version of basiliskLLM"
-msgstr "Vous utilisez déjà la dernière version de basiliskLLM"
+msgstr "BasiliskLLM'nin en son sürümünü kullanıyorsunuz"
 
 #: basilisk/gui/update_dialog.py:251
 #, python-format
 msgid "Error checking for updates: %s"
-msgstr "Erreur durant la recherche des mises à jour : %s"
+msgstr "Güncellemeler denetlenirken hata oluştu: %s"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/anthropic_engine.py:53
 msgid "Most intelligent model"
-msgstr "Modèle le plus intelligent"
+msgstr "En akıllı model"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/anthropic_engine.py:62
+#| msgid "Most powerful model for highly complex tasks"
 msgid "Powerful model for highly complex tasks"
-msgstr "Un modèle puissant pour des tâches très complexes"
+msgstr "Son derece karmaşık görevler için güçlü model"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/anthropic_engine.py:71
+#| msgid "Ideal balance of intelligence and speed for enterprise workloads"
 msgid "Balance of intelligence and speed"
-msgstr "Équilibre entre intelligence et rapidité"
+msgstr "Zeka ve hız dengesi"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/anthropic_engine.py:80
+#| msgid "Fastest and most compact model fornear-instant responsiveness"
 msgid "Fastest and most compact model for near-instant responsiveness"
-msgstr ""
-"Modèle le plus rapide et le plus compact pour une réactivité quasi "
-"instantanée"
+msgstr "Anında tepki süresi için en hızlı ve en kompakt model"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/anthropic_engine.py:91
 msgid "Updated version of Claude 2 with improved accuracy"
-msgstr "Version actualisée de Claude 2 avec une précision améliorée"
+msgstr "Claude 2'nin geliştirilmiş doğrulukla güncellenmiş sürümü"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/anthropic_engine.py:102
 msgid "Predecessor to Claude 3, offering strong all-round performance"
-msgstr "Prédécesseur de Claude 3, offrant de solides performances globales"
+msgstr "Claude 3'ün öncüsü, çok yönlü güçlü performans sunuyor"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/anthropic_engine.py:113
 msgid "Our cheapest small and fast model, a predecessor of Claude Haiku"
-msgstr ""
-"Notre modèle le moins cher, petit et rapide, prédécesseur de Claude Haiku"
+msgstr "En ucuz küçük ve hızlı modelimiz, Claude Haiku'nun öncüsü"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/mistralai_engine.py:24
@@ -820,8 +822,8 @@ msgid ""
 "The first dense model released by Mistral AI, perfect for experimentation, "
 "customization, and quick iteration"
 msgstr ""
-"Le premier modèle dense publié par Mistral AI, parfait pour "
-"l’expérimentation, la personnalisation et la rapidité"
+"Mistral AI tarafından yayımlanan ilk yoğun model; deneme, özelleştirme ve "
+"hızlı yineleme için mükemmel"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/mistralai_engine.py:35
@@ -830,10 +832,9 @@ msgid ""
 "parameters but only uses about 12B during inference, leading to better "
 "inference throughput at the cost of more vRAM"
 msgstr ""
-"Un modèle Sparse Mixture of Experts. Ainsi, il utilise jusqu’à 45 milliards "
-"de paramètres mais n’en utilise que environ 12 milliards lors de "
-"l’inférence, ce qui améliore le débit d’inférence au détriment de plus de "
-"vRAM"
+"Seyrek bir uzmanlar karışımı modeli. Bu nedenle, 45B'ye kadar parametreden "
+"yararlanır, ancak çıkarım sırasında yalnızca yaklaşık 12B kullanır, bu da "
+"daha fazla vRAM pahasına daha iyi çıkarım verimine yol açar"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/mistralai_engine.py:46
@@ -842,10 +843,9 @@ msgid ""
 "parameters but only uses about 39B during inference, leading to better "
 "inference throughput at the cost of more vRAM"
 msgstr ""
-"Un modèle Sparse Mixture of Experts plus grand. Ainsi, il utilise jusqu’à "
-"141 milliards de paramètres mais n’en utilise que environ 39 milliards lors "
-"de l’inférence, ce qui améliore le débit d’inférence au détriment de plus de "
-"vRAM"
+"Daha büyük, seyrek bir uzman karışımı modeli. Bu nedenle, 141B'ye kadar "
+"parametreden yararlanır ancak çıkarım sırasında yalnızca yaklaşık 39B "
+"kullanır; bu da daha fazla vRAM maliyetiyle daha iyi çıkarım verimi sağlar"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/mistralai_engine.py:57
@@ -853,8 +853,8 @@ msgid ""
 "Suitable for simple tasks that one can do in bulk (Classification, Customer "
 "Support, or Text Generation)"
 msgstr ""
-"Convient pour des tâches simples pouvant être réalisées en masse "
-"(classification, support client, génération de texte)"
+"Toplu olarak yapılabilecek basit görevler için uygundur (Sınıflandırma, "
+"Müşteri Desteği veya Metin Oluşturma)"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/mistralai_engine.py:67
@@ -863,9 +863,9 @@ msgid ""
 "extraction, Summarizing a Document, Writing emails, Writing a Job "
 "Description, or Writing Product Descriptions)"
 msgstr ""
-"Idéal pour des tâches intermédiaires nécessitant une modération de "
-"raisonnement (extraction de données, résumé d’un document, rédaction d’e-"
-"mails, rédaction d’une description de poste ou de produits)"
+"Orta düzey akıl yürütme gerektiren orta düzey görevler için idealdir (Veri "
+"çıkarma, Belgeyi Özetleme, E-posta Yazma, İş Tanımı Yazma veya Ürün "
+"Açıklamaları Yazma)"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/mistralai_engine.py:77
@@ -874,9 +874,9 @@ msgid ""
 "reasoning capabilities or are highly specialized (Synthetic Text Generation, "
 "Code Generation, RAG, or Agents)"
 msgstr ""
-"Notre modèle phare, idéal pour des tâches complexes nécessitant de grandes "
-"capacités de raisonnement ou sont hautement spécialisées (génération de "
-"texte synthétique, génération de code, RAG ou agents)"
+"Büyük muhakeme yetenekleri gerektiren veya üst düzeyde uzmanlaşmış (Sentetik "
+"Metin Oluşturma, Kod Oluşturma, RAG veya Aracılar) karmaşık görevler için "
+"ideal olan amiral gemisi modelimiz"
 
 #. Translators: This is a model description
 #: basilisk/provider_engine/mistralai_engine.py:87
@@ -885,9 +885,9 @@ msgid ""
 "optimized for code generation tasks, including fill-in-the-middle and code "
 "completion"
 msgstr ""
-"Un modèle génératif de pointe spécifiquement conçu et optimisé pour les "
-"tâches de génération de code, y compris le remplissage au milieu et la "
-"complétion de code"
+"Ortayı doldurma ve kod tamamlama dahil olmak üzere kod oluşturma görevleri "
+"için özel olarak tasarlanmış ve optimize edilmiş son teknoloji bir üretici "
+"model"
 
 #. Translators: This is a ProviderAIModel description
 #: basilisk/provider_engine/openai_engine.py:61
@@ -895,20 +895,18 @@ msgid ""
 "Our most advanced, multimodal flagship model that’s cheaper and faster than "
 "GPT-4 Turbo"
 msgstr ""
-"Notre modèle phare multimodal le plus avancé, moins cher et plus rapide que "
-"GPT-4 Turbo"
+"GPT-4 Turbo'dan daha ucuz ve daha hızlı olan en gelişmiş, çok modlu amiral "
+"gemisi modelimiz"
 
 #. Translators: This is a ProviderAIModel description
 #: basilisk/provider_engine/openai_engine.py:71
 msgid "The latest GPT-4 Turbo model with vision capabilities"
-msgstr "Le dernier modèle GPT-4 Turbo avec des capacités de vision"
+msgstr "Görüş yeteneklerine sahip en yeni GPT-4 Turbo modeli"
 
 #. Translators: This is a ProviderAIModel description
 #: basilisk/provider_engine/openai_engine.py:81
 msgid "Points to one of the most recent iterations of gpt-3.5 ProviderAIModel."
-msgstr ""
-"Pointe vers l’une des itérations les plus récentes de GPT-3.5 "
-"ProviderAIModel."
+msgstr "Gpt-3.5 ProviderAIModel'in en son yinelemelerinden birine işaret eder."
 
 #. Translators: This is a ProviderAIModel description
 #: basilisk/provider_engine/openai_engine.py:90
@@ -917,17 +915,15 @@ msgid ""
 "in requested formats and a fix for a bug which caused a text encoding issue "
 "for non-English language function calls."
 msgstr ""
-"Le dernier GPT-3.5 Turbo ProviderAIModel avec une précision accrue dans les "
-"réponses aux formats demandés et une correction d’un bogue qui causait un "
-"problème d’encodage de texte pour les appels de fonction en langues autres "
-"que l’anglais."
+"İstenilen biçimlerde yanıt verme konusunda daha yüksek doğruluk sağlayan en "
+"yeni GPT-3.5 Turbo SağlayıcıAIModel'i ve İngilizce dışındaki dillerdeki "
+"işlev çağrılarında metin kodlama sorununa neden olan bir hatanın "
+"düzeltilmesi."
 
 #. Translators: This is a ProviderAIModel description
 #: basilisk/provider_engine/openai_engine.py:99
 msgid "Points to one of the most recent iterations of gpt-4 ProviderAIModel."
-msgstr ""
-"Oriente vers l’une des itérations les plus récentes du modèle GPT-4 "
-"ProviderAIModel."
+msgstr "Gpt-4 ProviderAIModel'in en son yinelemelerinden birine işaret eder."
 
 #. Translators: This is a ProviderAIModel description
 #: basilisk/provider_engine/openai_engine.py:108
@@ -935,8 +931,8 @@ msgid ""
 "The latest GPT-4 ProviderAIModel intended to reduce cases of “laziness” "
 "where the ProviderAIModel doesn’t complete a task."
 msgstr ""
-"Le dernier modèle GPT-4 ProviderAIModel conçu pour réduire les cas de "
-"\"paresse\" où le ProviderAIModel ne termine pas une tâche."
+"En son GPT-4 ProviderAIModel, ProviderAIModel'in bir görevi tamamlamadığı "
+"\"tembellik\" durumlarını azaltmayı amaçlıyor."
 
 #. Translators: This is a ProviderAIModel description
 #: basilisk/provider_engine/openai_engine.py:117
@@ -944,9 +940,8 @@ msgid ""
 "GPT-4 Turbo ProviderAIModel featuring improved instruction following, JSON "
 "mode, reproducible outputs, parallel function calling, and more."
 msgstr ""
-"GPT-4 Turbo ProviderAIModel offrant un meilleur suivi des instructions, le "
-"mode JSON, des sorties reproductibles, l’appel de fonctions parallèles, et "
-"plus encore."
+"GPT-4 Turbo SağlayıcıAIModel, daha iyi talimat izleme, JSON modu, "
+"tekrarlanabilir çıktı, paralel işlev çağrısı ve daha fazlasını sunar."
 
 #. Translators: This is a ProviderAIModel description
 #: basilisk/provider_engine/openai_engine.py:126
@@ -954,8 +949,8 @@ msgid ""
 "GPT-4 Turbo with vision. Ability to understand images, in addition to all "
 "other GPT-4 Turbo capabilities."
 msgstr ""
-"GPT-4 Turbo avec vision. Capacité de comprendre les images, en plus de "
-"toutes les autres capacités de GPT-4 Turbo."
+"Vizyonlu GPT-4 Turbo. Diğer tüm GPT-4 Turbo özelliklerine ek olarak "
+"görüntüleri anlama yeteneği."
 
 #. Translators: This is a ProviderAIModel description
 #: basilisk/provider_engine/openai_engine.py:136
@@ -963,23 +958,24 @@ msgid ""
 "More capable than any GPT-3.5 ProviderAIModel, able to do more complex "
 "tasks, and optimized for chat"
 msgstr ""
-"Plus performant que n’importe quel GPT-3.5 ProviderAIModel, capable "
-"d’effectuer des tâches plus complexes et optimisé pour les conversations"
+"Herhangi bir GPT-3.5 SağlayıcıAIModel'inden daha yeteneklidir, daha karmaşık "
+"görevleri yerine getirebilir ve sohbet için optimize edilmiştir"
 
 #. Translators: This is a ProviderAIModel description
 #: basilisk/provider_engine/openai_engine.py:144
 msgid ""
 "Same capabilities as the standard gpt-4 mode but with 4x the context length."
 msgstr ""
-"Mêmes capacités que le mode gpt-4 standard mais avec une longueur de "
-"contexte 4 fois plus longue."
+"Standart gpt-4 moduyla aynı yeteneklere sahiptir ancak bağlam uzunluğunun 4 "
+"katıdır."
 
 #~ msgid ""
 #~ "Basilisk has been minimized to the system tray. Click the icon to restore "
 #~ "or use the hotkey Ctrl+Alt+Shift+B to toggle visibility."
 #~ msgstr ""
-#~ "Basilisk à été réduit dans la zone de notification. Cliquez sur l’icône "
-#~ "pour le restaurer ou utiliser le raccourci Ctrl+Alt+Shift+B."
+#~ "Basilisk sistem tepsisine küçültüldü. Geri yüklemek için simgeye tıklayın "
+#~ "veya görünürlüğü değiştirmek için Ctrl+Alt+Shift+B kısayol tuşunu "
+#~ "kullanın."
 
 #~ msgid "N/A"
 #~ msgstr "N/A"
